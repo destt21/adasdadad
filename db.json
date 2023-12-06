@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "hola",
+      "nombre": "hola",
+      "contrasena": "hola",
+      "id": 1
+    }
+  ],
+  "auto": [],
+  "perfil": []
+}
