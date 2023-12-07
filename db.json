@@ -1,12 +1,75 @@
 {
   "users": [
     {
-      "email": "hola",
-      "nombre": "hola",
-      "contrasena": "hola",
-      "id": 1
+      "email": "sea",
+      "nombre": "sea",
+      "contrasena": "sea",
+      "id": 1,
+      "tieneAuto": "SI"
     }
   ],
-  "auto": [],
-  "perfil": []
+  "auto": [
+    {
+      "marca": "a",
+      "modelo": "a",
+      "color": "a",
+      "patente": "a",
+      "user_id": 1,
+      "id": 1
+    },
+    {
+      "marca": "a",
+      "modelo": "a",
+      "color": "a",
+      "patente": "a",
+      "user_id": 1,
+      "id": 2
+    },
+    {
+      "marca": "sadas",
+      "modelo": "d",
+      "color": "sad",
+      "patente": "sad",
+      "user_id": 1,
+      "id": 3
+    },
+    {
+      "marca": "se",
+      "modelo": "se",
+      "color": "se",
+      "patente": "se",
+      "user_id": 1,
+      "id": 4
+    }
+  ],
+  "perfil": [],
+  "viaje": [
+    {
+      "startPoint": {
+        "longitude": -70.57906027403658,
+        "latitude": -33.59838997182398
+      },
+      "endPoint": {
+        "longitude": -70.612555,
+        "latitude": -33.625242
+      },
+      "servicioTomado": true,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "startPoint": {
+        "longitude": -70.57906027403658,
+        "latitude": -33.59838997182398
+      },
+      "endPoint": {
+        "longitude": -70.903556,
+        "latitude": -33.753822
+      },
+      "servicioTomado": true,
+      "userId": 1,
+      "id": 3,
+      "choferId": 1
+    }
+  ]
 }
